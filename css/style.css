@@ -1,0 +1,100 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/h1.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/h22.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/h3.jpg") no-repeat;
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#getstarted {
+  position: relative;
+  background: url(../img/getstart.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#home-video {
+  position: relative;
+  background: url(../img/yt.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #home-video .dark-overlay .fa {
+      font-size: 50px;
+      color: red; }
+
+#page-header {
+  background: url("../img/h22.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 220px; }
+
+#services-page-header {
+  background: url("../img/h22.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 220px; }
+
+#about-info img {
+  width: 400px;
+  height: 350px; }
+
+#icon-boxes .fa {
+  font-size: 50px;
+  margin-bottom: 20px; }
+
+#copyright {
+  background: #000; }
+
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #000; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #getstarted {
+    min-height: 400px; } }
+
+@media (max-width: 480px) {
+  .carousel-items h2 {
+    font-size: 2.5rem; } }
+
+@media (max-width: 300px) {
+  #showcase h2 {
+    font-size: 3rem; }
+  #showcase p {
+    font-size: 1rem; } }
